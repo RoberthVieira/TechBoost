@@ -1,2 +1,5 @@
 @import './globals.css';
 @import './Components/header.css';
+@import './Components/heroSection.css';
+@import './Components/about.css';
+@import './Components/register.css';

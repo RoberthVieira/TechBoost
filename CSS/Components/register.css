@@ -1,0 +1,70 @@
+.beneficios_resistro{
+    width: 100%;
+    display: flex;
+}
+
+.col_beneficios, .col_registro{
+    width: 50%;
+}
+
+.col_beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.col_beneficios ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.col_beneficios ul li{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.col_registro{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.col_registro .inputs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.col_registro .inputs input{
+    width: 189px;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.col_registro .inputs input::placeholder{
+    color: #333;
+    font-weight: 600;
+}
+
+.col_registro button{
+    width: 189px;
+    height: 40px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
