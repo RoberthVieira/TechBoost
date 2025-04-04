@@ -68,3 +68,8 @@
     cursor: pointer;
 }
 
+.col_registro button:hover{
+    background-color: #e69500;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 165, 0, 0.4);
+}
